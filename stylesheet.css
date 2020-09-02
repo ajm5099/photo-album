@@ -1,0 +1,45 @@
+img {
+    width: 30vw;
+    border-radius: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pic-container {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    font-size: 24px;
+    color: white;
+    margin: 0;
+}
+
+.top-left {
+    top:0;
+    left: 15px;
+}
+
+.bottom-left {
+    bottom:5%;
+    left: 30px;
+}
+
+.center {
+    bottom: 50%;
+    text-align: center;
+    width: 100%;
+}
+
+.bottom {
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+    background-color: darkslategray;
+    padding: 15px 0px;
+}
